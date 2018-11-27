@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    func randomfunc() {
-        "ffs"
+    @IBAction func buttonPress(_ sender: Any) {
+        print("YES")
     }
-
+    
 
 }
 
